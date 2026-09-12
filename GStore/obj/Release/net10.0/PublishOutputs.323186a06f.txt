@@ -1,0 +1,7 @@
+c:\Users\ASUS\Documents\asp.net-tuto\GStore\bin\Release\net10.0\publish\GStore.exe
+c:\Users\ASUS\Documents\asp.net-tuto\GStore\bin\Release\net10.0\publish\appsettings.Development.json
+c:\Users\ASUS\Documents\asp.net-tuto\GStore\bin\Release\net10.0\publish\appsettings.json
+c:\Users\ASUS\Documents\asp.net-tuto\GStore\bin\Release\net10.0\publish\GStore.dll
+c:\Users\ASUS\Documents\asp.net-tuto\GStore\bin\Release\net10.0\publish\GStore.deps.json
+c:\Users\ASUS\Documents\asp.net-tuto\GStore\bin\Release\net10.0\publish\GStore.runtimeconfig.json
+c:\Users\ASUS\Documents\asp.net-tuto\GStore\bin\Release\net10.0\publish\GStore.pdb
