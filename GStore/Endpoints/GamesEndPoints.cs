@@ -36,17 +36,18 @@ public static class GamesEndPoints
         // POST /games
         group.MapPost("/",(CreateGameDto newGame) =>
         {
-        GameDto game = new(
-                games.Count + 1,
-                newGame.Name,
-                newGame.Genre,
-                newGame.Price,
-                newGame.ReleaseDate
-        );
 
-        games.Add(game);
+            GameDto game = new(
+                    games.Count + 1,
+                    newGame.Name,
+                    newGame.Genre,
+                    newGame.Price,
+                    newGame.ReleaseDate
+            );
 
-        return Results.CreatedAtRoute(GetGameEndpointName, new {id = game.Id}, game); 
+            games.Add(game);
+
+            return Results.CreatedAtRoute(GetGameEndpointName, new {id = game.Id}, game); 
         });
 
 
