@@ -1,4 +1,5 @@
 using GameStore.Api.Context;
+using GameStore.Api.Data;
 using GameStore.Api.EndPoints;
 using GStore.Api.Dtos;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,8 @@ builder.Services.AddDbContext<GameStoreContext>(options =>
 var app = builder.Build();
 
 app.MapGameEndPoints();
+
+app.MigrateDb();
 
 //html routes
 app.Run();
