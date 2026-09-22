@@ -25,3 +25,5 @@ app.Run();
         //group.MapGet("/", () => "Hello World!");
 
 // dotnet run
+
+//$env:ConnectionString__GameStore="Production.db"  

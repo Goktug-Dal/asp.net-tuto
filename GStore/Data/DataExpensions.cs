@@ -18,7 +18,8 @@ public static class DataExpensions{
 
     public static void AddGameStoreDb(this WebApplicationBuilder builder)
     {
-    var connString = "Data Source=GameStore.db"; // define db with its name
+    var connString = builder.Configuration.GetConnectionString("GameStore"); // define db with its name
+    builder.Services.AddScoped<GameStoreContext>();
     builder.Services.AddDbContext<GameStoreContext>(options =>
         options
             .UseSqlite(connString)
