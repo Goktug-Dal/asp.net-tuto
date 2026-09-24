@@ -1,0 +1,16 @@
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# .NET
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# User-specific
+*.user
+*.suo

@@ -12,6 +12,7 @@ builder.AddGameStoreDb();
 var app = builder.Build();
 
 app.MapGameEndPoints();
+app.MapGenresEndPoints();
 
 app.MigrateDb();
 
